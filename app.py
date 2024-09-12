@@ -16,9 +16,14 @@ import chromadb
 from unidecode import unidecode
 import pikepdf
 
-# Your Hugging Face token
-hf_token = "Your Token"
-login(token=hf_token)
+# Load Hugging Face token from environment variables
+hf_token = os.getenv("HUGGINGFACEHUB_API_TOKEN")
+
+if hf_token is None:
+    raise ValueError("Hugging Face token not found. Please set it as an environment variable.")
+
+# Authenticate Hugging Face
+login(token=hf_token, add_to_git_credential=True)
 os.environ["HUGGINGFACEHUB_API_TOKEN"] = hf_token
 
 def decrypt_pdf(file_path, password):
