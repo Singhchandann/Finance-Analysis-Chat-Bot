@@ -1,5 +1,13 @@
 # Finance-Analysis-Chat-Bot
-This project provides a chatbot for analyzing bank statements from PDF files. It can analyze current expenses, predict future expenses, and offer personalized financial strategies based on the data provided.  
+This project provides a chatbot for analyzing bank statements from PDF files. It can analyze current expenses, predict future expenses, and offer personalized financial strategies based on the data provided.
+
+## Directory Structure  
+finance-analysis-chatbot/  
+├── README.md  
+├── requirements.txt  
+├── app.py  
+└── .gitignore  
+
 ## Features
 
 - Upload bank statements (PDF)
@@ -12,7 +20,7 @@ This project provides a chatbot for analyzing bank statements from PDF files. It
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/finance-analysis-chatbot.git
+   git clone https://github.com/Singhchandann/Finance-Analysis-Chat-Bot.git
    ```
 2. Navigate to the project directory:
    ```bash
