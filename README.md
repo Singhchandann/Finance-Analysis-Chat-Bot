@@ -38,4 +38,7 @@ finance-analysis-chatbot/
  * After launching the app, upload a bank statement PDF.  
  * Provide the password for the PDF if it is password-protected.  
  * Click "Analyze Expenses and Start Chat" to get analysis and predictions.  
- * You can continue asking further questions based on the data.  
+ * You can continue asking further questions based on the data.
+
+## Render code
+  uvicorn app:app --host 0.0.0.0 --port 5000
