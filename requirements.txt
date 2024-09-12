@@ -1,0 +1,16 @@
+torch
+transformers
+sentence-transformers
+langchain
+tqdm
+accelerate
+pypdf
+chromadb
+unidecode
+langchain
+pysqlite3-binary
+gradio
+langchain-community
+langchain-core
+PyPDF2
+pikepdf
