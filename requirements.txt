@@ -5,7 +5,7 @@ langchain
 tqdm
 accelerate
 pypdf
-chromadb==0.5.5
+chromadb==0.3.29
 unidecode
 langchain
 pysqlite3-binary
