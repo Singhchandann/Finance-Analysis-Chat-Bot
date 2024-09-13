@@ -10,6 +10,7 @@ unidecode
 langchain
 pysqlite3-binary
 gradio
-langchain-community langchain-core
+langchain-community
+langchain-core
 PyPDF2
 pikepdf
